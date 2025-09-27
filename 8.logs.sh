@@ -18,7 +18,7 @@ VALIDATE(){
     fi
 }
 
-ID=$(id)
+ID=$(id -u)
 if [ $ID -ne 0 ]
 then 
     echo "please run the command with root user"
