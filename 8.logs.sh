@@ -36,9 +36,9 @@ else
     echo -e "$Y you are root user $N"
 fi
 
-yum install git -y
+yum install gittt -y
 
 # yum install git -y &>> $LOGFILE
 
 # VALIDATE $? "installing git"
-echo "is script proceeding?"
+# echo "is script proceeding?"
