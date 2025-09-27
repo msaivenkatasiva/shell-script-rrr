@@ -1,12 +1,12 @@
 #!/bin/bash
 
 VALIDATE(){
-    if [ $1 - ne 0 ]
+    if [ $1 -ne 0 ]
     then
         echo "error::.... $2 failed"
         exit 1
     else    
-        echo "installing $2 is sucess"
+        echo "$2 is sucess"
     fi
 }
 
@@ -23,3 +23,7 @@ fi
 yum install mysql -y
 
 VALIDATE $? "installing nginix"
+
+yum install git -y
+
+VALIDATE $? "installing git"
