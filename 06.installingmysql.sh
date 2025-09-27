@@ -18,7 +18,7 @@ ID=$(id)
 if [ $ID -ne 0 ]
 then
     echo "please run the command with root user"
-    EXIT 1
+    exit 1
 else
     echo "you are rootuser"
 fi
