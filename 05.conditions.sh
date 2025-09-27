@@ -10,3 +10,4 @@ then
     echo "given $NUMBER is greater than 100"
 else
     echo "given $NUMBER is less than 100"
+if
