@@ -28,7 +28,7 @@ yum install myyssql -y
 if [ $? -ne 0 ]
 then 
     echo "error:: installing my sql failed"
-    EXIT 1
+    exit 1
 else
     echo "installing msql is sucessfull"
 fi
@@ -38,7 +38,7 @@ yum install git -y
 if [ $? -ne 0 ]
 then 
     echo "ERROR:: Installing git is failed"
-    EXIT 1
+    exit 1
 else
     echo "installing git is successfull"
 fi
