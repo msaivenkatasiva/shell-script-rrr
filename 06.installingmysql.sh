@@ -23,7 +23,7 @@ else
     echo "you are rootuser"
 fi
 
-yum install myyssql -y
+yum install mysql -y
 
 if [ $? -ne 0 ]
 then 
