@@ -19,3 +19,5 @@ do
     echo "deleting files: $line"
     rm -rf $line
 done <<< $FILES_TO_DELETE
+
+#+14 more than delete
